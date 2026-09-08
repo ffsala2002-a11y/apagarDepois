@@ -3,6 +3,11 @@ import { products } from './data/products.js';
 import { rootList, searchCamp, btnClose } from './variables/variables.js';
 import { filterProduct } from './components/filterProduct.js';
 import { close } from './components/buttonClose.js';
+import { load } from './components/loading.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+    load()
+})
 
 
 searchCamp.addEventListener('input', () => {
