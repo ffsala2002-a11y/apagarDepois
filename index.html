@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./css/main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
@@ -10,29 +10,22 @@
 
 <body>
 
-    <header>
-        <h1>Prática de api get</h1>
+    <header class="topo">
+        <input id="camp" class="searchCamp" type="text" required>
+        <label for="camp">
+            Buscar produtos...
+        </label>
+        <button class="close">
+            X
+        </button>
     </header>
 
-    <div class="fundoSpinner"></div>
-    <div class="fundoModalUser"></div>
-
-    <div class="sk-folding-cube">
-        <div class="sk-cube1 sk-cube"></div>
-        <div class="sk-cube2 sk-cube"></div>
-        <div class="sk-cube4 sk-cube"></div>
-        <div class="sk-cube3 sk-cube"></div>
-    </div>
-
-    <div class="modalUser">
-        <div class="rootModal"></div>
-    </div>
-
-    <main>
-        <div class="rootList"></div>
+    <main class="main-container">
+        <section>
+            <div class="rootList"></div>
+        </section>
     </main>
 
 </body>
-<script src="./js.js"></script>
-
+<script type="module" src="./js/main.js"></script>
 </html>
