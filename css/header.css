@@ -3,7 +3,7 @@
     height: 70px;
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem 1rem 1.5rem 1rem;
     border-radius: 0 0 30px 30px;
     position: relative;
     background: var(--bg-primary);
