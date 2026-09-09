@@ -34,7 +34,7 @@
 
 
 .main-container .rootList {
-    padding-bottom: 10rem;
+    padding-bottom: 15rem;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
