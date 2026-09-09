@@ -3,3 +3,18 @@
 @import url('./mainContainer.css');
 @import url('./productCard.css');
 @import url('./loading.css');
+@import url('./bottomBar.css');
+
+.cart {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.cart.active {
+    opacity: 1;
+    pointer-events: auto;
+}

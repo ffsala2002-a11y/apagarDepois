@@ -1,0 +1,26 @@
+.bottom-bar {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    border-radius: 30px 30px 0 0;
+    border-top: 2px solid var(--pink);
+    backdrop-filter: blur(6px);
+}
+
+.bottom-bar .box-buttons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom-bar .box-buttons .btn {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+}

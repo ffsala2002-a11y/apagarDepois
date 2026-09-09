@@ -10,6 +10,8 @@
 
 <body>
 
+    <div id="cart" class="cart rota"></div>
+
     <header class="topo">
         <input id="camp" class="searchCamp" type="text" required>
         <label for="camp">
@@ -20,7 +22,7 @@
         </button>
     </header>
 
-    <main class="main-container">
+    <main id="home" class="main-container rota active">
         <section>
             <div class="rootList"></div>
         </section>
@@ -40,8 +42,20 @@
         </div>
     </div>
 
+    <section class="bottom-bar">
+        <div class="box-buttons">
+            <button class="btn" onclick="changeRoute('home', this)">
+                Home
+            </button>
+            <button class="btn" onclick="changeRoute('cart', this)">
+                Carrinho
+            </button>
+        </div>
+    </section>
+
 
 </body>
 <script type="module" src="./js/main.js"></script>
+<script src="./js/components/bottomBar.js"></script>
 
 </html>

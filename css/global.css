@@ -8,6 +8,7 @@
 :root {
     --white: #ffff;
     --green: #019401;
+    --pink: #8900ff;
 
     --bg-primary: linear-gradient(90deg, #212121 0%, #4f4f4f 100%);
     --bg-secun: linear-gradient(90deg, #8900ff 0%, #db12ff 50%, #ff24dc 100%);
