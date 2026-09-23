@@ -1,0 +1,85 @@
+/* From Uiverse.io by arshshaikh06 */
+.shimmer {
+    position: relative;
+    background: #c4c2c2;
+    background-image: linear-gradient(to right, #cfcece 0%, #cfcece 10%, #cfcece 20%, #cfcece 30%, #cfcece 50%, #cfcece 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: shimmer;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+        background-position: -400px 0;
+    }
+
+    100% {
+        background-position: 400px 0;
+    }
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#square {
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    top: 6.7rem;
+    left: 0;
+}
+
+#content {
+    flex: 1;
+    height: 150px;
+    width: 100%;
+    padding: 0.5rem 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#content-title {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+}
+
+#content-desc {
+    width: calc(100% - 400px);
+    height: 100%;
+    position: absolute;
+    left: 27rem;
+    top: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.line {
+    width: 250px;
+    height: 130px;
+    border-radius: 20px;
+}
+
+.line-bigger {
+    width: calc(100% - 400px);
+    height: 70px;
+    position: absolute;
+    top: 20rem;
+    border-radius: 20px;
+}
